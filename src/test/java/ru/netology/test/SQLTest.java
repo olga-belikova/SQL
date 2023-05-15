@@ -39,7 +39,7 @@ public class SQLTest {
         verificationPage.verify(verificationCode.getCode());
         verificationPage.verify(verificationCode.getCode());
         verificationPage.verify(verificationCode.getCode());
-        verificationPage.verifyErrorNotificationVisibility();
+        verificationPage.verifyBlockNotificationVisibility();
     }
 
 }
